@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Idea Collector</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/your-awesome-kit.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>💡 Idea Collector</h1>
+    <p class="description">
+        Have a great idea but don’t know how to bring it to life? Submit your idea here, 
+        and we’ll provide step-by-step guidelines, required skills, and technologies 
+        to help you turn it into reality!
+    </p>
+
+    <form id="ideaForm">
+        <input type="text" id="title" placeholder="🚀 Idea Title" required><br><br>
+        <textarea id="description" placeholder="✍️ Describe your idea..." required></textarea><br><br>
+        <button type="submit">Submit Idea</button>
+    </form>
+
+    <h2>📝 Submitted Ideas</h2>
+    <p>check it out the below ideas </p>
+    <div id="ideasList"></div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
